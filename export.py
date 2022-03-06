@@ -178,4 +178,5 @@ for (root, dirs, files) in os.walk(EXT_DIR):
             print('flattening path: (root, dirs, file) ', root, dirs, file)
             if root != EXT_DIR:
                 file = os.path.join(root, file).replace(EXT_DIR, '')
-            flatten(file)
+            if file not in visited:
+                flatten(file)
