@@ -1,4 +1,6 @@
-# bssflattener
+# bssflattener 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 a hallucination of a vision of a hope that I can parse and edit CSS and HTML from bootstrap studio dynamically
 
 currently the JS file download and replacement is fine. The CSS seems to be parsed twice, probably something that can be fixed
